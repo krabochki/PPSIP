@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Моё портфолио</title>
+</head>
+
+<body>
+  <h1>Моё портфолио</h1>
+
+  <!-- Оформление текста -->
+  <h2>Обо мне</h2>
+  <p>Привет, меня зовут Полина и я веб-разработчик.</p>
+
+  <!-- Списки -->
+  <h2>Навыки</h2>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>C#</li>
+    <li>Java</li>
+    <li>Delphi</li>
+    <li>Python</li>
+  </ul>
+
+  <h2>Любимые блюда</h2>
+  <ol>
+    <li>Крабовые палочки</li>
+    <li>Пицца c морепродуктами</li>
+    <li>Запечённые ролы</li>
+    <li>Лепешка с сыром</li>
+  </ol>
+
+  <!-- Изображения -->
+
+  <!-- Аудио и видео-контент -->
+  <h2>Любимые исполнители</h2>
+<section class="audio">
+     <div>
+          <h3>Лана Дель Рей</h3>
+          <audio src="Audio/Lana Del Rey.mp3" controls></audio>
+     </div>
+      <div>
+          <h3>The Weeknd</h3>
+          <audio src="Audio/The Weeknd.mp3" controls></audio>
+      </div>
+    <div>
+          <h3>Deftones</h3>
+          <audio src="Audio/Deftones.mp3" controls></audio>
+    </div>
+     <div>
+          <h3>The Neighbourhood</h3>
+          <audio src="Audio/The Neighbourhood.mp3" controls></audio>
+     </div>
+</section>
+  <h2>Любимые фильмы</h2>
+  <section>
+   <div>
+        <h3>Остров проклятых</h3>
+        <video src="favor.mp4" controls></video>
+   </div>
+    <div>
+        <h3>Полтора шпиона</h3>
+        <video src="favor.mp4" controls></video>
+    </div>
+  <div>
+        <h3>Кто я</h3>
+        <video src="favor.mp4" controls></video>
+  </div>
+    <div>
+        <h3>Семь</h3>
+        <video src="favor.mp4" controls></video>
+    </div>
+    <div>
+        <h3>Криминальное чтиво</h3>
+        <video src="favor.mp4" controls></video>
+    </div>
+    <div>
+        <h3>Мистер и Миссис Смит</h3>
+        <video src="favor.mp4" controls></video>
+    </div>
+  </section>
+  <h2 id="photos">Мои фото</h2>
+  <section class="photo">
+        <button>&lt;</button>
+        <img src="Photo/me.jpg" alt="Моё фото">
+        <button>></button>
+  </section>
+
+
+
+
+  <!-- Таблицы -->
+  <h2>Опыт работы</h2>
+  <table>
+    <thead>
+        <th>Период</th>
+        <th>Компания</th>
+        <th>Должность</th>
+      </thead>
+    <tr>
+    <tr>
+      <td>2022</td>
+      <td>Гродно Азот</td>
+      <td>1C Разработчик</td>
+    </tr>
+    <tr>
+        <td>2023</td>
+        <td>Sqilsoft</td>
+        <td>Frontend-разработчик</td>
+      </tr>
+    <tr>
+      <td>2020-Настоящее время</td>
+      <td>Политехнический колледж</td>
+      <td>Разработчик на разных языках</td>
+    </tr>
+  </table>
+
+  <!-- Пользовательские формы -->
+  <h2>Анкета</h2>
+  <form>
+    <label for="name">Имя:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Электронная почта:</label>
+    <input type="email" id="email" name="email" required>
+
+    <input type="submit" value="Отправить">
+  </form>
+
+  <!-- Гиперссылки -->
+  <h2>Мои проекты</h2>
+  <ul>
+    <li><a href="https://github.com/krabochki/FamilyTree">Family Tree: C#</a></li>
+    <li><a href="https://github.com/krabochki/YourTimer">Your Timer: Angular</a></li>
+    <li><a href="https://github.com/krabochki/The-planets-of-the-Solar-System">Планеты Солнечной системы: Delphi</a></li>
+    <li><a href="https://github.com/krabochki/Spacedive">Spacedive: HTML, CSS, JS</a></li>
+    <li><a href="https://github.com/krabochki/Proflex">Proflex: HTML, CSS, JS</a></li>
+  </ul>
+
+  <h2>Соцсети</h2>
+  <ul>
+    <li><a href="https://github.com/krabochki">GitHub</a></li>
+    <li><a href="https://www.instagram.com/krabochki">Instagram</a></li>
+    <li><a href="https://t.me/krabochki">Telegram</a></li>
+  </ul>
+
+  <h2>Связь со мной</h2>
+  <ul>
+    <li><a href="tel:+375291510475">Мобильный телефон</a></li>
+    <li><a href="mailto:polinaa.kuzmenokk@gmail.com">Электронная почта</a></li>
+  </ul>
+
+</body>
+<script src="script.js"></script>
+</html>
