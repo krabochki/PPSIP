@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JabaScript</title>
+    <script type="text/javascript">
+        function ShowSecond(){
+            let current_date = new Date();
+            alert("Задание 1: "+current_date.getSeconds())
+        }
+    </script>
+</head>
+<body onload="alert('Задание 2: '); let i=0, n=8; do { } while ( i!=n+5 );
+let mas = [1,2,3,4,5,6,7,8,9,10]; sum=0; for (let i=0; i<=mas.length-1; i++){ if (mas[i] % 3 == 0){ sum++ } } alert('Задание 3: '+sum)">
+    <h1>Привет JavaScript!</h1>
+    <button onclick="ShowSecond()">Показать секунды</button>
+    <form>
+        <button type="button" onclick="document.write(formula(1,2,4))"> Провести рассчёт</button>
+        <button type="button">Открыть окно</button>
+    </form>
+</body>
+<script src="script.js"></script>
+</html>

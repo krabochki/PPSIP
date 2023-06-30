@@ -1,0 +1,145 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(238, 238, 238);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Gill Sans Nova, Helvetica, sans-serif;
+  
+}
+
+
+
+
+html{
+  font-size: calc(16px + (18 - 16) * ((100vw - 1024px) / (1920 - 1024)));
+}
+
+.maincont{
+    background-color: rgb(248, 248, 248);
+    padding:30px;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+#sale {
+  background-color: rgb(230, 43, 43);
+  width: 8rem;
+  height: 3rem;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sale img {
+  height: 70%;
+}
+
+#buttons {
+  display: flex;
+  align-items: center;
+}
+#buttons > img {
+  height: 1.75rem;
+  margin-right:1rem;
+  cursor:pointer
+}
+#buttons div{
+    margin-right:1rem;
+    cursor:pointer
+
+}
+
+#shampoo {
+  height: 30vh;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+
+#stars img {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right:0.2rem;
+
+
+}
+#rate{
+    margin-left:0.5rem;
+    color:gray;
+    line-height: 1.5;
+}
+
+#stars {
+
+  display: flex;
+}
+#good {
+  margin-bottom: 2.5rem;
+  margin-top:0.75rem
+}
+#country {
+  font-size: 0.9rem;
+margin-bottom:0.25rem;
+  color: gray;
+}
+
+#price {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.delivery {
+  color: gray;
+}
+.deliv {
+    margin-top:0.5rem;
+}
+
+@media (max-width:1000px) and (min-width:481px) {
+  html{
+    font-size: calc(14px + (20 - 14) * ((100vw - 481px) / (1000 - 481)));
+  
+  }
+
+
+}
+
+@media (max-width:480px) and (min-width:320px) {
+  html{
+    font-size: calc(14px + (20 - 14) * ((100vw - 320px) / (480 - 320)));
+  
+  }
+
+  .maincont{
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height:100vh;
+    width:100vw;
+    padding:40px;
+    box-shadow: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+
+}
